@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(139, 107, 77);
+    color: rgb(218, 182, 165);
+    font-size: 24px;
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: auto;
+}
+#strawberry
+{
+    background-color: lightpink;
+    color: rgb(228, 89, 112);
+}
+#lemon {
+    background-color: bisque;
+    color: rgba(235, 134, 12, 0.87);
+}
+#banana
+{
+    background-color: #f7ece1;
+    color:rgb(255, 202, 29);
+}
+a:visited {
+    color: inherit;
+}
+h1{
+    font-size: 48px;
+}
+#strawberry h1,
+#lemon h1,
+#banana h1,
+ol,
+footer {
+    font-style: italic;
+}
+ol,
+ul {
+    text-align: left;
+}
+ul {
+    columns: 2;
+}
+footer{
+    text-align: end;
+}
+#back {
+    margin: 0;
+    display: inline;
+    float: left;
+}
